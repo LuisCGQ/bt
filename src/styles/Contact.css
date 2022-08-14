@@ -1,0 +1,25 @@
+.contact {
+    background-color: rgb(245, 245, 245);
+}
+
+.contact__data {
+    padding: 50px 0;
+    font-size: 1.8rem;
+}
+
+.contact__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__buttons button {
+    min-width: 140px;
+    min-height: 40px;
+}
+
+@media (min-width:768px)
+{
+    .contact__buttons button {
+        margin-left: 30px;
+    }
+}

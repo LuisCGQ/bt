@@ -1,0 +1,19 @@
+.video {
+    text-align: center;
+}
+
+.video_player {
+    max-width: 100%;
+}
+
+.video__text {
+    color: rgb(116, 116, 116);
+}
+
+@media (min-width:768px) {
+    .video__info {
+        text-align: left;
+        max-width: 50%;
+        padding-left: 60px;
+    }
+}
